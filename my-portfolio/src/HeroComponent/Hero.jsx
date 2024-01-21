@@ -29,7 +29,6 @@ export default Hero
 
 
 const MainContainer=styled.div`
-background:black;
 max-width: 1280px;
 margin: 0 auto;
 height:82vh;
@@ -43,24 +42,26 @@ display:flex;
 
     img{
         border-radius:100px;
-        border: 3px solid gold;
+        border: 3px solid black;
     }
 }
 .title-container{
-    background:gold;
     width:30%;
     height:50vh;
     margin: auto;
     margin-left:40px;
-    line-height:28px;
+    line-height:33px;
+    margin-top:110px;
     h1{
         text-align:center;
         font-family: 'Heebo', sans-serif;
+        margin-top:20px;
     }
     h2{
         text-align:center;
         font-family: 'Heebo', sans-serif;
         color:gray;
+        margin-top:20px;
     }
     .btn-container{
         height:5vh;
@@ -86,7 +87,7 @@ display:flex;
         justify-content:center;
 
         img{
-            margin-top:14px;
+            margin-top:20px;
         }
     }
 }
